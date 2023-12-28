@@ -210,5 +210,19 @@ li {
     text-wrap: nowrap;
     border-color: white;
     border-radius: 6px;
+}
 
+/* Credits */
+.credits {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits.text {
+    display: flex;
+    color: #E5E7EB;
+    padding: 32px;
+    font-size: 16px;
 }
