@@ -166,3 +166,49 @@ li {
     padding-top: 0px;
     padding-right: 80px;
 }
+
+/* Action section */
+.action {
+    display: flex;
+    padding: 80px 48px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action.content {
+    display: flex;
+    background-color: #3882F6;
+    width: 75%;
+    padding: 0px 48px;
+    border-radius: 8px;
+}
+
+.action.text {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    align-items: flex-start;
+    font-size: 24px;
+    color: white;
+}
+
+.action.button {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    font-size: 24px;
+    min-width: 160px;
+    min-width: 60px;
+    padding: 6px 24px;
+    text-align: center;
+    text-wrap: nowrap;
+    border-color: white;
+    border-radius: 6px;
+
+}
