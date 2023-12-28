@@ -152,7 +152,10 @@ li {
     font-style: italic;
     justify-content: center;
     align-items: center;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .quote.author {
@@ -161,4 +164,5 @@ li {
     font-size: 18px;
     text-align: end;
     padding-top: 0px;
+    padding-right: 80px;
 }
