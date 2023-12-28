@@ -135,3 +135,29 @@ li {
     border-radius: 12px;
     margin-bottom: 18px;
 }
+
+/* Quote section */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+
+.quote.text {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.quote.author {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    text-align: end;
+    padding-top: 0px;
+}
